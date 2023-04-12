@@ -1,20 +1,29 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React , {useState, useeffect, Component} from 'react';
+import { NavigationContainer } from "@react-navigation/native";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import registerNNPushToken from "native-notify";
+import { View, StyleSheet, Button, Linking } from 'react-native';
+import { Constants } from 'expo';
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
-}
+import HomeScreen from './src/screens/Home'
+import Item from './src/components/Item'
+import MyStack from './src/components/MyStack';
+import MyDrawer from './src/components/MyDrawer';
+// AppRegistry.registerComponent(GiftGivers, () => HomeScreen);
+  const App = () => {
+    return (
+      <NavigationContainer style={styles.container}>
+        {/* <MyDrawer/> */}
+        <MyStack/>
+      </NavigationContainer>
+    );
+  }
+  
+  const styles = StyleSheet.create({
+    container: {
+      backgroundColor: '#FFFFF',
+    },
+  });
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+
+  export default App;

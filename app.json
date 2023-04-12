@@ -1,8 +1,8 @@
 {
   "expo": {
     "name": "GiftGivers",
-    "slug": "GiftGivers",
-    "version": "1.0.0",
+    "slug": "giftgivers",
+    "version": "1.0.3",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -18,16 +18,25 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.zachlop1.giftgivers"
     },
     "android": {
+      "versionCode": 6,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.zachlop1.giftgivers"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "28ed2532-a4e0-418e-bc0a-576edd4a2d54"
+      }
+    },
+    "owner": "zachlop1"
   }
 }

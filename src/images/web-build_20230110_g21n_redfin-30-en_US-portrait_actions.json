@@ -1,0 +1,748 @@
+{
+  "events": [{
+    "sourceScreenId": "0",
+    "destinationScreenId": "1",
+    "startTimeSeconds": 4.509257,
+    "endTimeSeconds": 6.90615,
+    "executionResult": "SUCCESS",
+    "launch": {
+      "action": "android.intent.action.MAIN"
+    }
+  }, {
+    "sequence": 1,
+    "sourceScreenId": "1",
+    "destinationScreenId": "2",
+    "startTimeSeconds": 7.726742,
+    "endTimeSeconds": 11.763961,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.1.0.0.0.0.0.1.0.0.0.4",
+      "targetDetails": {
+        "className": "com.facebook.react.views.view.ReactViewGroup",
+        "androidClassName": "android.view.ViewGroup"
+      }
+    }
+  }, {
+    "sequence": 2,
+    "sourceScreenId": "2",
+    "destinationScreenId": "1",
+    "startTimeSeconds": 13.78038,
+    "endTimeSeconds": 14.926691,
+    "executionResult": "SUCCESS",
+    "system": {
+      "type": "BACK"
+    }
+  }, {
+    "sequence": 3,
+    "sourceScreenId": "1",
+    "destinationScreenId": "3",
+    "startTimeSeconds": 15.235143,
+    "endTimeSeconds": 16.010469,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.1.0.0.0.0.0.1.0.0.0.1",
+      "targetDetails": {
+        "className": "com.facebook.react.views.view.ReactViewGroup",
+        "androidClassName": "android.view.ViewGroup"
+      }
+    }
+  }, {
+    "sequence": 4,
+    "sourceScreenId": "3",
+    "destinationScreenId": "4",
+    "startTimeSeconds": 16.705646,
+    "endTimeSeconds": 27.35139,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.1.0.0.0.0.0.1.0.0.0.0.3",
+      "targetDetails": {
+        "className": "com.facebook.react.views.view.ReactViewGroup",
+        "androidClassName": "android.view.ViewGroup"
+      }
+    }
+  }, {
+    "sequence": 5,
+    "sourceScreenId": "4",
+    "destinationScreenId": "3",
+    "startTimeSeconds": 33.484675,
+    "endTimeSeconds": 34.62666,
+    "executionResult": "SUCCESS",
+    "system": {
+      "type": "BACK"
+    }
+  }, {
+    "sequence": 6,
+    "sourceScreenId": "3",
+    "destinationScreenId": "5",
+    "startTimeSeconds": 34.966571,
+    "endTimeSeconds": 38.670824,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.1.0.0.0.0.0.1.0.0.0.0.0",
+      "targetDetails": {
+        "className": "com.facebook.react.views.view.ReactViewGroup",
+        "androidClassName": "android.view.ViewGroup"
+      }
+    }
+  }, {
+    "sequence": 7,
+    "sourceScreenId": "5",
+    "destinationScreenId": "3",
+    "startTimeSeconds": 44.461464,
+    "endTimeSeconds": 45.669089,
+    "executionResult": "SUCCESS",
+    "system": {
+      "type": "BACK"
+    }
+  }, {
+    "sequence": 8,
+    "sourceScreenId": "3",
+    "destinationScreenId": "1",
+    "startTimeSeconds": 45.984303,
+    "endTimeSeconds": 46.696207,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.1.0.0.0.0.1.0.1",
+      "targetDetails": {
+        "className": "androidx.appcompat.widget.AppCompatImageButton",
+        "androidClassName": "android.widget.ImageButton",
+        "contentDescription": "Navigate up"
+      }
+    }
+  }, {
+    "sequence": 9,
+    "sourceScreenId": "1",
+    "destinationScreenId": "6",
+    "startTimeSeconds": 46.996176,
+    "endTimeSeconds": 47.751376,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.1.0.0.0.0.0.1.0.0.0.2",
+      "targetDetails": {
+        "className": "com.facebook.react.views.view.ReactViewGroup",
+        "androidClassName": "android.view.ViewGroup"
+      }
+    }
+  }, {
+    "sequence": 10,
+    "sourceScreenId": "6",
+    "destinationScreenId": "7",
+    "startTimeSeconds": 48.391089,
+    "endTimeSeconds": 54.36187,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.1.0.0.0.0.0.1.0.0.0.0.0",
+      "targetDetails": {
+        "className": "com.facebook.react.views.view.ReactViewGroup",
+        "androidClassName": "android.view.ViewGroup"
+      }
+    }
+  }, {
+    "sequence": 11,
+    "sourceScreenId": "7",
+    "destinationScreenId": "6",
+    "startTimeSeconds": 58.813992999999996,
+    "endTimeSeconds": 60.058623,
+    "executionResult": "SUCCESS",
+    "system": {
+      "type": "BACK"
+    }
+  }, {
+    "sequence": 12,
+    "sourceScreenId": "6",
+    "destinationScreenId": "8",
+    "startTimeSeconds": 60.371494,
+    "endTimeSeconds": 62.553727,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.1.0.0.0.0.0.1.0.0.0.0.2",
+      "targetDetails": {
+        "className": "com.facebook.react.views.view.ReactViewGroup",
+        "androidClassName": "android.view.ViewGroup"
+      }
+    }
+  }, {
+    "sequence": 13,
+    "sourceScreenId": "8",
+    "destinationScreenId": "6",
+    "startTimeSeconds": 69.826939,
+    "endTimeSeconds": 71.093714,
+    "executionResult": "SUCCESS",
+    "system": {
+      "type": "BACK"
+    }
+  }, {
+    "sequence": 14,
+    "sourceScreenId": "6",
+    "destinationScreenId": "1",
+    "startTimeSeconds": 71.392451,
+    "endTimeSeconds": 72.114544,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.1.0.0.0.0.1.0.1",
+      "targetDetails": {
+        "className": "androidx.appcompat.widget.AppCompatImageButton",
+        "androidClassName": "android.widget.ImageButton",
+        "contentDescription": "Navigate up"
+      }
+    }
+  }, {
+    "sequence": 15,
+    "sourceScreenId": "1",
+    "destinationScreenId": "9",
+    "startTimeSeconds": 72.424905,
+    "endTimeSeconds": 73.161631,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.1.0.0.0.0.0.1.0.0.0.0",
+      "targetDetails": {
+        "className": "com.facebook.react.views.view.ReactViewGroup",
+        "androidClassName": "android.view.ViewGroup"
+      }
+    }
+  }, {
+    "sequence": 16,
+    "sourceScreenId": "9",
+    "destinationScreenId": "10",
+    "startTimeSeconds": 73.758455,
+    "endTimeSeconds": 74.598692,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.1.0.0.0.0.0.1.0.0.0.0.8",
+      "targetDetails": {
+        "className": "com.facebook.react.views.view.ReactViewGroup",
+        "androidClassName": "android.view.ViewGroup"
+      }
+    }
+  }, {
+    "sequence": 17,
+    "sourceScreenId": "10",
+    "destinationScreenId": "9",
+    "startTimeSeconds": 75.710058,
+    "endTimeSeconds": 76.783786,
+    "executionResult": "SUCCESS",
+    "system": {
+      "type": "BACK"
+    }
+  }, {
+    "sequence": 18,
+    "sourceScreenId": "9",
+    "destinationScreenId": "11",
+    "startTimeSeconds": 77.096218,
+    "endTimeSeconds": 83.358847,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.1.0.0.0.0.0.1.0.0.0.0.0",
+      "targetDetails": {
+        "className": "com.facebook.react.views.view.ReactViewGroup",
+        "androidClassName": "android.view.ViewGroup"
+      }
+    }
+  }, {
+    "sequence": 19,
+    "sourceScreenId": "11",
+    "destinationScreenId": "9",
+    "startTimeSeconds": 87.542379,
+    "endTimeSeconds": 88.642825,
+    "executionResult": "SUCCESS",
+    "system": {
+      "type": "BACK"
+    }
+  }, {
+    "sequence": 20,
+    "sourceScreenId": "9",
+    "destinationScreenId": "12",
+    "startTimeSeconds": 88.953417,
+    "endTimeSeconds": 97.776207,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.1.0.0.0.0.0.1.0.0.0.0.3",
+      "targetDetails": {
+        "className": "com.facebook.react.views.view.ReactViewGroup",
+        "androidClassName": "android.view.ViewGroup"
+      }
+    }
+  }, {
+    "sequence": 21,
+    "sourceScreenId": "12",
+    "destinationScreenId": "9",
+    "startTimeSeconds": 103.54911,
+    "endTimeSeconds": 104.906519,
+    "executionResult": "SUCCESS",
+    "system": {
+      "type": "BACK"
+    }
+  }, {
+    "sequence": 22,
+    "sourceScreenId": "9",
+    "destinationScreenId": "13",
+    "startTimeSeconds": 105.2055,
+    "endTimeSeconds": 107.557914,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "SWIPE",
+      "childSequence": "0.0.1.0.1.0.0.0.0.0.1.0.0.0.0.8.0",
+      "targetDetails": {
+        "className": "com.facebook.react.views.text.ReactTextView",
+        "androidClassName": "android.widget.TextView",
+        "textLabel": "CHECK IT OUT!"
+      }
+    }
+  }, {
+    "sequence": 23,
+    "sourceScreenId": "13",
+    "destinationScreenId": "9",
+    "startTimeSeconds": 115.090958,
+    "endTimeSeconds": 116.282252,
+    "executionResult": "SUCCESS",
+    "system": {
+      "type": "BACK"
+    }
+  }, {
+    "sequence": 24,
+    "sourceScreenId": "9",
+    "destinationScreenId": "12",
+    "startTimeSeconds": 116.576886,
+    "endTimeSeconds": 125.356985,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.1.0.0.0.0.0.1.0.0.0.0.5",
+      "targetDetails": {
+        "className": "com.facebook.react.views.view.ReactViewGroup",
+        "androidClassName": "android.view.ViewGroup"
+      }
+    }
+  }, {
+    "sequence": 25,
+    "sourceScreenId": "12",
+    "destinationScreenId": "9",
+    "startTimeSeconds": 127.309731,
+    "endTimeSeconds": 128.525373,
+    "executionResult": "SUCCESS",
+    "system": {
+      "type": "BACK"
+    }
+  }, {
+    "sequence": 26,
+    "sourceScreenId": "9",
+    "destinationScreenId": "14",
+    "startTimeSeconds": 128.828648,
+    "endTimeSeconds": 130.527646,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "SWIPE",
+      "childSequence": "0.0.1.0.1.0.0.0.0.0.1.0.0.0.1.2.0",
+      "targetDetails": {
+        "className": "com.facebook.react.views.text.ReactTextView",
+        "androidClassName": "android.widget.TextView",
+        "textLabel": "CHECK IT OUT!"
+      }
+    }
+  }, {
+    "sequence": 27,
+    "sourceScreenId": "14",
+    "destinationScreenId": "9",
+    "startTimeSeconds": 133.237122,
+    "endTimeSeconds": 142.701444,
+    "executionResult": "SUCCESS",
+    "system": {
+      "type": "BACK"
+    }
+  }, {
+    "sequence": 28,
+    "sourceScreenId": "9",
+    "destinationScreenId": "15",
+    "startTimeSeconds": 142.99845,
+    "endTimeSeconds": 147.36897,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "SWIPE",
+      "childSequence": "0.0.1.0.1.0.0.0.0.0.1.0.0.0.0.5.0",
+      "targetDetails": {
+        "className": "com.facebook.react.views.text.ReactTextView",
+        "androidClassName": "android.widget.TextView",
+        "textLabel": "CHECK IT OUT!"
+      }
+    }
+  }, {
+    "sequence": 29,
+    "sourceScreenId": "15",
+    "destinationScreenId": "9",
+    "startTimeSeconds": 156.262115,
+    "endTimeSeconds": 157.365519,
+    "executionResult": "SUCCESS",
+    "system": {
+      "type": "BACK"
+    }
+  }, {
+    "sequence": 30,
+    "sourceScreenId": "9",
+    "destinationScreenId": "1",
+    "startTimeSeconds": 157.664848,
+    "endTimeSeconds": 158.377547,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.1.0.0.0.0.1.0.1",
+      "targetDetails": {
+        "className": "androidx.appcompat.widget.AppCompatImageButton",
+        "androidClassName": "android.widget.ImageButton",
+        "contentDescription": "Navigate up"
+      }
+    }
+  }, {
+    "sequence": 31,
+    "sourceScreenId": "1",
+    "destinationScreenId": "16",
+    "startTimeSeconds": 158.671398,
+    "endTimeSeconds": 159.402263,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.1.0.0.0.0.0.1.0.0.0.3",
+      "targetDetails": {
+        "className": "com.facebook.react.views.view.ReactViewGroup",
+        "androidClassName": "android.view.ViewGroup"
+      }
+    }
+  }, {
+    "sequence": 32,
+    "sourceScreenId": "16",
+    "destinationScreenId": "17",
+    "startTimeSeconds": 160.001954,
+    "endTimeSeconds": 164.275589,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.1.0.0.0.0.0.1.0.0.0.0.5",
+      "targetDetails": {
+        "className": "com.facebook.react.views.view.ReactViewGroup",
+        "androidClassName": "android.view.ViewGroup"
+      }
+    }
+  }, {
+    "sequence": 33,
+    "sourceScreenId": "17",
+    "destinationScreenId": "16",
+    "startTimeSeconds": 172.938351,
+    "endTimeSeconds": 174.099832,
+    "executionResult": "SUCCESS",
+    "system": {
+      "type": "BACK"
+    }
+  }, {
+    "sequence": 34,
+    "sourceScreenId": "16",
+    "destinationScreenId": "18",
+    "startTimeSeconds": 174.399122,
+    "endTimeSeconds": 185.286297,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.1.0.0.0.0.0.1.0.0.0.1.2",
+      "targetDetails": {
+        "className": "com.facebook.react.views.view.ReactViewGroup",
+        "androidClassName": "android.view.ViewGroup"
+      }
+    }
+  }, {
+    "sequence": 35,
+    "sourceScreenId": "18",
+    "destinationScreenId": "16",
+    "startTimeSeconds": 191.233486,
+    "endTimeSeconds": 192.783416,
+    "executionResult": "SUCCESS",
+    "system": {
+      "type": "BACK"
+    }
+  }, {
+    "sequence": 36,
+    "sourceScreenId": "16",
+    "destinationScreenId": "19",
+    "startTimeSeconds": 193.076112,
+    "endTimeSeconds": 193.486471,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "SWIPE",
+      "childSequence": "0.0.1.0.1.0.0.0.0.0.1.0.0.0.0.5.0",
+      "targetDetails": {
+        "className": "com.facebook.react.views.text.ReactTextView",
+        "androidClassName": "android.widget.TextView",
+        "textLabel": "CHECK IT OUT!"
+      }
+    }
+  }, {
+    "sequence": 37,
+    "sourceScreenId": "19",
+    "destinationScreenId": "12",
+    "startTimeSeconds": 206.717593,
+    "endTimeSeconds": 207.342535,
+    "executionResult": "FAILED",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.8",
+      "targetDetails": {
+        "className": "android.view.ViewGroup",
+        "androidClassName": "android.view.ViewGroup"
+      }
+    }
+  }, {
+    "sequence": 38,
+    "sourceScreenId": "12",
+    "destinationScreenId": "16",
+    "startTimeSeconds": 208.921919,
+    "endTimeSeconds": 210.06146,
+    "executionResult": "SUCCESS",
+    "system": {
+      "type": "BACK"
+    }
+  }, {
+    "sequence": 39,
+    "sourceScreenId": "16",
+    "destinationScreenId": "20",
+    "startTimeSeconds": 210.368533,
+    "endTimeSeconds": 215.328823,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "SWIPE",
+      "childSequence": "0.0.1.0.1.0.0.0.0.0.1.0.0.0.1.2.0",
+      "targetDetails": {
+        "className": "com.facebook.react.views.text.ReactTextView",
+        "androidClassName": "android.widget.TextView",
+        "textLabel": "CHECK IT OUT!"
+      }
+    }
+  }, {
+    "sequence": 40,
+    "sourceScreenId": "20",
+    "destinationScreenId": "16",
+    "startTimeSeconds": 226.646919,
+    "endTimeSeconds": 227.90163,
+    "executionResult": "SUCCESS",
+    "system": {
+      "type": "BACK"
+    }
+  }, {
+    "sequence": 41,
+    "sourceScreenId": "16",
+    "destinationScreenId": "11",
+    "startTimeSeconds": 228.203769,
+    "endTimeSeconds": 234.605025,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.1.0.0.0.0.0.1.0.0.0.0.2",
+      "targetDetails": {
+        "className": "com.facebook.react.views.view.ReactViewGroup",
+        "androidClassName": "android.view.ViewGroup"
+      }
+    }
+  }, {
+    "sequence": 42,
+    "sourceScreenId": "11",
+    "destinationScreenId": "16",
+    "startTimeSeconds": 235.904394,
+    "endTimeSeconds": 237.095052,
+    "executionResult": "SUCCESS",
+    "system": {
+      "type": "BACK"
+    }
+  }, {
+    "sequence": 43,
+    "sourceScreenId": "16",
+    "destinationScreenId": "7",
+    "startTimeSeconds": 237.392117,
+    "endTimeSeconds": 243.59527,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "SWIPE",
+      "childSequence": "0.0.1.0.1.0.0.0.0.0.1.0.0.0.0.2.0",
+      "targetDetails": {
+        "className": "com.facebook.react.views.text.ReactTextView",
+        "androidClassName": "android.widget.TextView",
+        "textLabel": "CHECK IT OUT!"
+      }
+    }
+  }, {
+    "sequence": 44,
+    "sourceScreenId": "7",
+    "destinationScreenId": "16",
+    "startTimeSeconds": 244.910346,
+    "endTimeSeconds": 246.120605,
+    "executionResult": "SUCCESS",
+    "system": {
+      "type": "BACK"
+    }
+  }, {
+    "sequence": 45,
+    "sourceScreenId": "16",
+    "destinationScreenId": "21",
+    "startTimeSeconds": 246.41584,
+    "endTimeSeconds": 248.73773,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.1.0.0.0.0.0.1.0.0.0.0.8",
+      "targetDetails": {
+        "className": "com.facebook.react.views.view.ReactViewGroup",
+        "androidClassName": "android.view.ViewGroup"
+      }
+    }
+  }, {
+    "sequence": 46,
+    "sourceScreenId": "21",
+    "destinationScreenId": "16",
+    "startTimeSeconds": 256.431209,
+    "endTimeSeconds": 257.579531,
+    "executionResult": "SUCCESS",
+    "system": {
+      "type": "BACK"
+    }
+  }, {
+    "sequence": 47,
+    "sourceScreenId": "16",
+    "destinationScreenId": "13",
+    "startTimeSeconds": 257.864865,
+    "endTimeSeconds": 260.244529,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "SWIPE",
+      "childSequence": "0.0.1.0.1.0.0.0.0.0.1.0.0.0.0.8.0",
+      "targetDetails": {
+        "className": "com.facebook.react.views.text.ReactTextView",
+        "androidClassName": "android.widget.TextView",
+        "textLabel": "CHECK IT OUT!"
+      }
+    }
+  }, {
+    "sequence": 48,
+    "sourceScreenId": "13",
+    "destinationScreenId": "16",
+    "startTimeSeconds": 264.750189,
+    "endTimeSeconds": 265.847567,
+    "executionResult": "SUCCESS",
+    "system": {
+      "type": "BACK"
+    }
+  }, {
+    "sequence": 49,
+    "sourceScreenId": "16",
+    "destinationScreenId": "20",
+    "startTimeSeconds": 266.152942,
+    "endTimeSeconds": 271.978688,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.1.0.0.0.0.0.1.0.0.0.1.0",
+      "targetDetails": {
+        "className": "com.facebook.react.views.view.ReactViewGroup",
+        "androidClassName": "android.view.ViewGroup"
+      }
+    }
+  }, {
+    "sequence": 50,
+    "sourceScreenId": "20",
+    "destinationScreenId": "16",
+    "startTimeSeconds": 278.554192,
+    "endTimeSeconds": 280.559412,
+    "executionResult": "SUCCESS",
+    "system": {
+      "type": "BACK"
+    }
+  }, {
+    "sequence": 51,
+    "sourceScreenId": "16",
+    "destinationScreenId": "7",
+    "startTimeSeconds": 280.858449,
+    "endTimeSeconds": 287.391448,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.1.0.0.0.0.0.1.0.0.0.0.0",
+      "targetDetails": {
+        "className": "com.facebook.react.views.view.ReactViewGroup",
+        "androidClassName": "android.view.ViewGroup"
+      }
+    }
+  }, {
+    "sequence": 52,
+    "sourceScreenId": "7",
+    "destinationScreenId": "16",
+    "startTimeSeconds": 288.725055,
+    "endTimeSeconds": 289.828757,
+    "executionResult": "SUCCESS",
+    "system": {
+      "type": "BACK"
+    }
+  }, {
+    "sequence": 53,
+    "sourceScreenId": "16",
+    "destinationScreenId": "1",
+    "startTimeSeconds": 290.125628,
+    "endTimeSeconds": 290.832658,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.1.0.0.0.0.1.0.1",
+      "targetDetails": {
+        "className": "androidx.appcompat.widget.AppCompatImageButton",
+        "androidClassName": "android.widget.ImageButton",
+        "contentDescription": "Navigate up"
+      }
+    }
+  }, {
+    "sequence": 54,
+    "sourceScreenId": "1",
+    "destinationScreenId": "22",
+    "startTimeSeconds": 291.135783,
+    "endTimeSeconds": 291.878681,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.1.0.0.0.0.0.1.0.0.0.2",
+      "targetDetails": {
+        "className": "com.facebook.react.views.view.ReactViewGroup",
+        "androidClassName": "android.view.ViewGroup"
+      }
+    }
+  }, {
+    "sequence": 55,
+    "sourceScreenId": "22",
+    "destinationScreenId": "23",
+    "startTimeSeconds": 292.499494,
+    "endTimeSeconds": 298.704293,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.1.0.0.0.0.0.1.0.0.0.0.8",
+      "targetDetails": {
+        "className": "com.facebook.react.views.view.ReactViewGroup",
+        "androidClassName": "android.view.ViewGroup"
+      }
+    }
+  }, {
+    "sequence": 56,
+    "sourceScreenId": "23",
+    "destinationScreenId": "23",
+    "startTimeSeconds": 303.134149,
+    "endTimeSeconds": 304.39332,
+    "executionResult": "SUCCESS",
+    "system": {
+      "type": "BACK"
+    }
+  }]
+}
