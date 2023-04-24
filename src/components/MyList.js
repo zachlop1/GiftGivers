@@ -7,7 +7,6 @@ import {TouchableOpacity, Linking } from 'react-native';
 import { useState, useEffect } from 'react';
 import { Dimensions } from 'react-native';
 
-const images = require.context('./assets/images', true);
 
 const MyList = ({ items, type }) => {
 const [gifOpacity] = useState(new Animated.Value(0));
